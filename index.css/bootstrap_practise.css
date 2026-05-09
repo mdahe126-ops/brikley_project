@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.layer-1{
+    opacity:0;
+    transition:opacity 0.5s ease;
+}
+.cards .card .card_content:hover .layer-1{
+    opacity:1;
+}
+body{
+    background-color:#F6F7F7;
+}
+.layer{
+    bottom:-25px;
+}

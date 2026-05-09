@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.services{
+    width:100%;
+    height:400px;
+}
+.services .container{
+    width:90%;
+    margin:0px auto;
+}
+.services .container .cards .card_1{
+    width:60%;
+    display:inline-block;
+}
+.services .container .cards .card_2{
+    width:39%;
+    display:inline-block;
+}
+.food{
+    width:100%;
+    height:500px;
+}
+.food .container{
+    width:90%;
+    margin:10px auto;
+}
+.food .container .parts .part{
+    width:calc(100%/3);
+    /*display:inline-block;*/ /*The last div was put on a new line to avoid extra space.*/
+    float:left;
+    padding:10px 10px;
+    box-sizing:border-box;
+}
+.food .container .parts .part img{
+    width:100%;
+}
+.clear{
+    clear:both;/*both="right/left"*/
+}
